@@ -1,0 +1,146 @@
+# alacritty color scheme
+
+schemes:
+  terminal_basic: &terminal_basic
+    # Default colors
+    primary:
+      background: '0xffffff'
+      foreground: '0x000000'
+
+    # Normal colors
+    normal:
+      black:   '0x000000'
+      red:     '0x990000'
+      green:   '0x00a600'
+      yellow:  '0x999900'
+      blue:    '0x0000b2'
+      magenta: '0xb200b2'
+      cyan:    '0x00a6b2'
+      white:   '0xbfbfbf'
+
+    # Bright colors
+    bright:
+      black:   '0x666666'
+      red:     '0xe50000'
+      green:   '0x00d900'
+      yellow:  '0xe5e500'
+      blue:    '0x0000ff'
+      magenta: '0xe500e5'
+      cyan:    '0x00e5e5'
+      white:   '0xe5e5e5'
+
+  panda: &panda
+    primary:
+      background: '#292A2B'
+      foreground: '#E6E6E6'
+
+    normal:
+      black:   '#292A2B'
+      red:     '#FF2C6D'
+      green:   '#19f9d8'
+      yellow:  '#FFB86C'
+      blue:    '#45A9F9'
+      magenta: '#FF75B5'
+      cyan:    '#67d3c2'
+      orange:  '#B084EB'
+      white:   '#E6E6E6'
+    bright:
+      black:   '#292A2B'
+      red:     '#FF2C6D'
+      green:   '#19f9d8'
+      yellow:  '#ffcc95'
+      blue:    '#6FC1FF'
+      magenta: '#FF9AC1'
+      cyan:    '#67d3c2'
+      white:   '#ffffff'
+
+  cobalt2: &cobalt2
+    cursor:
+      text: '#fefff2'
+      cursor: '#f0cc09'
+
+    selection:
+      text: '#b5b5b5'
+      background: '#18354f'
+
+    primary:
+      background: '#132738'
+      foreground: '#ffffff'
+
+    normal:
+      black:   '#000000'
+      red:     '#ff0000'
+      green:   '#38de21'
+      yellow:  '#ffe50a'
+      blue:    '#1460d2'
+      magenta: '#ff005d'
+      cyan:    '#00bbbb'
+      white:   '#bbbbbb'
+
+    bright:
+      black:   '#555555'
+      red:     '#f40e17'
+      green:   '#3bd01d'
+      yellow:  '#edc809'
+      blue:    '#5555ff'
+      magenta: '#ff55ff'
+      cyan:    '#6ae3fa'
+      white:   '#ffffff'
+
+  solarized_dark_high_contrast: &solarized_dark_high_contrast
+    # Default colors
+    primary:
+      background: '0x001e27'
+      foreground: '0x9cc2c3'
+
+    # Normal colors
+    normal:
+      black:   '0x002831'
+      red:     '0xd11c24'
+      green:   '0x6cbe6c'
+      yellow:  '0xa57706'
+      blue:    '0x2176c7'
+      magenta: '0xc61c6f'
+      cyan:    '0x259286'
+      white:   '0xeae3cb'
+
+    # Bright colors
+    bright:
+      black:   '0x006488'
+      red:     '0xf5163b'
+      green:   '0x51ef84'
+      yellow:  '0xb27e28'
+      blue:    '0x178ec8'
+      magenta: '0xe24d8e'
+      cyan:    '0x00b39e'
+      white:   '0xfcf4dc'
+
+  firefox_dev: &firefox_dev
+    # Default colors
+    primary:
+      background: '0x0e1011'
+      foreground: '0x7c8fa4'
+
+    # Normal colors
+    normal:
+      black:   '0x002831'
+      red:     '0xe63853'
+      green:   '0x5eb83c'
+      yellow:  '0xa57706'
+      blue:    '0x359ddf'
+      magenta: '0xd75cff'
+      cyan:    '0x4b73a2'
+      white:   '0xdcdcdc'
+
+    # Bright colors
+    bright:
+      black:   '0x001e27'
+      red:     '0xe1003f'
+      green:   '0x1d9000'
+      yellow:  '0xcd9409'
+      blue:    '0x006fc0'
+      magenta: '0xa200da'
+      cyan:    '0x005794'
+      white:   '0xe2e2e2'
+
+colors: *solarized_dark_high_contrast
