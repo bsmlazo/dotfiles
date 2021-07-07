@@ -8,7 +8,7 @@ A continuación están mis configuraciones para mi ambiente laboral:
 - Vim
 
 # Alacritty
-Las instrucciones de instalación se encuentran https://github.com/alacritty/alacritty.git
+Las instrucciones de instalación se encuentran en el enlace https://github.com/alacritty/alacritty.git
 
 # Tabla host
 Archivo hosts se debe dejar en la ruta /etc/hosts
