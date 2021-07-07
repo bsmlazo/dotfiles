@@ -1,0 +1,16 @@
+#!/bin/sh
+
+#if [ "$IFACE" = "br-b082260b9741" ]; then
+#Bb
+    ip route add 10.40.0.0/16 via 172.18.0.3
+#Copec
+    ip route add 10.1.0.0/16 via 172.18.0.4
+    ip route add 10.79.0.25 via 172.18.0.4
+    ip route add 10.79.0.23 via 172.18.0.4
+    ip route add 10.152.33.65 via 172.18.0.4
+    ip route add 10.79.0.159 via 172.18.0.4
+    ip route add 10.79.0.171 via 172.18.0.4
+#Mutual
+    ip route add 172.20.0.0/16 via 172.18.0.5
+    ip route add 172.30.0.0/16 via 172.18.0.5
+#fi
