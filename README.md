@@ -10,6 +10,7 @@ A continuación están mis configuraciones para mi ambiente laboral:
 
 # Alacritty
 Las instrucciones de instalación se encuentran en el enlace <a href="https://github.com/alacritty/alacritty.git">Alacritty</a>
+
 Despues de instalado alacritty ejecutar el siguiente comando para la config
 
 ```sh
