@@ -65,7 +65,7 @@ mv -i .vimrc ~/
 mv -i .vim ~/
 ```
 
-#Fuentes
+# Fuentes
 Copiar las fuentes que estan en el repositorio hacia las fuentas del sistema
 
 ```sh
