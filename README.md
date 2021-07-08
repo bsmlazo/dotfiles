@@ -17,7 +17,7 @@ Las instrucciones de instalación se encuentran en el enlace <a href="https://gi
 sudo apt install tmux -y
 ```
 
-- Para realizar la instalación vía repositorio visitar a href="https://github.com/tmux/tmux">tmux</a>
+- Para realizar la instalación vía repositorio visitar <a href="https://github.com/tmux/tmux">tmux</a>
 
 # VPN Clientes
 Para la configuración de las VPNs de los clientes, se debe:
