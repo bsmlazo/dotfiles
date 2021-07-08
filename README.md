@@ -11,7 +11,7 @@ A continuación están mis configuraciones para mi ambiente laboral:
 Las instrucciones de instalación se encuentran en el enlace <a href="https://github.com/alacritty/alacritty.git">Alacritty</a>
 
 # Tmux
-- Instalación vía repositorio Debian
+- Instalación vía repositorio **Debian**
 
 ```sh
 sudo apt install tmux -y
