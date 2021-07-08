@@ -1,11 +1,11 @@
 # Intro
 A continuación están mis configuraciones para mi ambiente laboral:
-- Alacritty (#alacritty)
-- Tmux (#tmux)
-- Tabla host (#tabla-host)
-- VPNs clientes (#vpn-clientes)
-- Alias bash (#alias-bash)
-- Vim
+- [Alacritty](#alacritty)
+- [Tmux](#tmux)
+- [Tabla host](#tabla-host)
+- [VPNs clientes](#vpn-clientes)
+- [Alias bash](#alias-bash)
+- [Vim](#vim)
 
 # Alacritty
 Las instrucciones de instalación se encuentran en el enlace <a href="https://github.com/alacritty/alacritty.git">Alacritty</a>
