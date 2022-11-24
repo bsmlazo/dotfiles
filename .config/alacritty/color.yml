@@ -87,34 +87,6 @@ schemes:
       cyan:    '#6ae3fa'
       white:   '#ffffff'
 
-  solarized_dark_high_contrast: &solarized_dark_high_contrast
-    # Default colors
-    primary:
-      background: '0x001e27'
-      foreground: '0x9cc2c3'
-
-    # Normal colors
-    normal:
-      black:   '0x002831'
-      red:     '0xd11c24'
-      green:   '0x6cbe6c'
-      yellow:  '0xa57706'
-      blue:    '0x2176c7'
-      magenta: '0xc61c6f'
-      cyan:    '0x259286'
-      white:   '0xeae3cb'
-
-    # Bright colors
-    bright:
-      black:   '0x006488'
-      red:     '0xf5163b'
-      green:   '0x51ef84'
-      yellow:  '0xb27e28'
-      blue:    '0x178ec8'
-      magenta: '0xe24d8e'
-      cyan:    '0x00b39e'
-      white:   '0xfcf4dc'
-
   firefox_dev: &firefox_dev
     # Default colors
     primary:
@@ -142,35 +114,6 @@ schemes:
       magenta: '0xa200da'
       cyan:    '0x005794'
       white:   '0xe2e2e2'
-
-  buloco_dark: &buloco_dark
-    bright:
-      black: '#8f9aae'
-      blue: '#10b1fe'
-      cyan: '#5fb9bc'
-      green: '#3fc56b'
-      magenta: '#ff78f8'
-      red: '#ff6480'
-      white: '#ffffff'
-      yellow: '#f9c859'
-    cursor:
-      cursor: '#ffcc00'
-      text: '#282c34'
-    normal:
-      black: '#41444d'
-      blue: '#3476ff'
-      cyan: '#4483aa'
-      green: '#25a45c'
-      magenta: '#7a82da'
-      red: '#fc2f52'
-      white: '#cdd4e0'
-      yellow: '#ff936a'
-    primary:
-      background: '#282c34'
-      foreground: '#b9c0cb'
-    selection:
-      background: '#b9c0ca'
-      text: '#272b33'
 
   brogrammer: &brogrammer
     bright:
@@ -201,64 +144,6 @@ schemes:
       background: '#1f1f1f'
       text: '#d6dbe5'
 
-  dark_plus: &dark_plus
-    bright:
-      black: '#666666'
-      blue: '#3b8eea'
-      cyan: '#29b8db'
-      green: '#23d18b'
-      magenta: '#d670d6'
-      red: '#f14c4c'
-      white: '#e5e5e5'
-      yellow: '#f5f543'
-    cursor:
-      cursor: '#ffffff'
-      text: '#000000'
-    normal:
-      black: '#000000'
-      blue: '#2472c8'
-      cyan: '#11a8cd'
-      green: '#0dbc79'
-      magenta: '#bc3fbc'
-      red: '#cd3131'
-      white: '#e5e5e5'
-      yellow: '#e5e510'
-    primary:
-      background: '#0e0e0e'
-      foreground: '#cccccc'
-    selection:
-      background: '#3a3d41'
-      text: '#e0e0e0'
-
-  dimmed_monikai: &dimmed_monokai
-    bright:
-      black: '#888987'
-      blue: '#186de3'
-      cyan: '#2e706d'
-      green: '#0f722f'
-      magenta: '#fb0067'
-      red: '#fb001f'
-      white: '#fdffb9'
-      yellow: '#c47033'
-    cursor:
-      cursor: '#f83e19'
-      text: '#171717'
-    normal:
-      black: '#3a3d43'
-      blue: '#4f76a1'
-      cyan: '#578fa4'
-      green: '#879a3b'
-      magenta: '#855c8d'
-      red: '#be3f48'
-      white: '#b9bcba'
-      yellow: '#c5a635'
-    primary:
-      background: '#1f1f1f'
-      foreground: '#b9bcba'
-    selection:
-      background: '#2a2d32'
-      text: '#b9bcba'
-
   elementary: &elementary
     bright:
       black: '#4b4b4b'
@@ -287,35 +172,6 @@ schemes:
     selection:
       background: '#b5d5ff'
       text: '#000000'
-
-  encom: &encom
-    bright:
-      black: '#555555'
-      blue: '#0000ff'
-      cyan: '#00cdcd'
-      green: '#00ee00'
-      magenta: '#ff00ff'
-      red: '#ff0000'
-      white: '#ffffff'
-      yellow: '#ffff00'
-    cursor:
-      cursor: '#bbbbbb'
-      text: '#ffffff'
-    normal:
-      black: '#000000'
-      blue: '#0081ff'
-      cyan: '#008b8b'
-      green: '#008b00'
-      magenta: '#bc00ca'
-      red: '#9f0000'
-      white: '#bbbbbb'
-      yellow: '#ffd000'
-    primary:
-      background: '#000000'
-      foreground: '#00a595'
-    selection:
-      background: '#00a48c'
-      text: '#3de1c9'
 
   galizur: &galizur
     bright:
@@ -346,45 +202,43 @@ schemes:
       background: '#2255cc'
       text: '#ddeeff'
 
-  monokai_vivid: &monokai_vivid
-    bright:
-      black: '#838383'
-      blue: '#0443ff'
-      cyan: '#51ceff'
-      green: '#b1e05f'
-      magenta: '#f200f6'
-      red: '#f6669d'
-      white: '#ffffff'
-      yellow: '#fff26d'
-    cursor:
-      cursor: '#fb0007'
-      text: '#ea0009'
-    normal:
-      black: '#121212'
-      blue: '#0443ff'
-      cyan: '#01b6ed'
-      green: '#98e123'
-      magenta: '#f800f8'
-      red: '#fa2934'
-      white: '#ffffff'
-      yellow: '#fff30a'
+# Colors (Taerminal)
+  terminal: &terminal
+  # Default colors
     primary:
-      background: '#121212'
-      foreground: '#f9f9f9'
-    selection:
-      background: '#ffffff'
-      text: '#000000'
+      background: '#131313'
+      foreground: '#d6dbe5'
+    cursor:
+      background: '#f0f0f0'
+      foreground: '#26282a'
+
+    # Normal colors
+    normal:
+      black:   '#000000'
+      red:     '#AA0000'
+      green:   '#00AA00'
+      yellow:  '#AA5400'
+      blue:    '#0000AA'
+      magenta: '#AA00AA'
+      cyan:    '#00AAAA'
+      white:   '#AAAAAA'
+
+    # Bright colors
+    bright:
+      black:   '#545454'
+      red:     '#FF5454'
+      green:   '#54FF54'
+      yellow:  '#FFFF54'
+      blue:    '#5454FF'
+      magenta: '#FF54FF'
+      cyan:    '#54FFFF'
+      white:   '#FFFFFF'
 
 #colors: *terminal_basic
 #colors: *panda
 #colors: *cobalt2
-#colors: *solarized_dark_high_contrast
 #colors: *firefox_dev
-#colors: *buloco_dark
 #colors: *brogrammer
-#colors: *dark_plus
-#colors: *dimmed_monokai
-colors: *elementary
-#colors: *encom
+#colors: *elementary # se parece al tango de la terminar normal
 #colors: *galizur
-#colors: *monokai_vivid
+colors: *terminal
