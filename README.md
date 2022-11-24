@@ -7,6 +7,10 @@ A continuación están mis configuraciones para mi ambiente laboral:
 - [Alias bash](#alias-bash)
 - [Vim](#vim)
 - [Fuentes](#fuentes)
+- [Kubectl](#kubectl)
+- [Kubecolor](#kubecolor)
+- [Docker](#docker)
+- [Minikube](#minikube)
 
 # Alacritty
 Las instrucciones de instalación se encuentran en el enlace <a href="https://github.com/alacritty/alacritty.git">Alacritty</a>
@@ -51,11 +55,10 @@ sudo mv -i hosts /etc/hosts
 ```
 
 # Alias Bash
-Copiar el archivo .bashrc en el home de mi usuario
+Copiar el archivo .bash_aliases en el home
 
 ```sh
-mv -i ~/.bashrc ~/.bashrc.bkp
-mv -i .bashrc ~/
+mv -i ~/.bash_aliases ~/
 ```
 
 # Vim
