@@ -1,0 +1,6 @@
+alias k='kubecolor'
+alias ll='ls -ltr'
+alias la='ls -ltra'
+alias pi='ssh 192.168.1.103 -l pi'
+alias vpn-file='vim ~/Trabajo/vpn/docker-compose.yml'
+alias vpn-up='docker-compose -f ~/Trabajo/vpn/docker-compose.yml up -d; docker logs -f fortinet'
