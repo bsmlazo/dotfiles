@@ -25,7 +25,7 @@ Las instrucciones de instalación se encuentran en el enlace <a href="https://gi
 Despues de instalado alacritty ejecutar el siguiente comando para la config
 
 ```sh
-cp -i .config/alacritty ~/.config/
+cp -ir .config/alacritty ~/.config/
 ```
 
 # Tmux
@@ -72,14 +72,14 @@ Configuración de vim
 
 ```sh
 cp -i .vimrc ~/
-cp -i .vim ~/
+cp -ir .vim ~/
 ```
 
 # Fuentes
 Copiar las fuentes que estan en el repositorio hacia las fuentas del sistema
 
 ```sh
-sudo cp -i .local/share/fonts/* /usr/share/fonts/
+sudo cp -ir .local/share/fonts/* /usr/share/fonts/
 sudo chown root.root /usr/share/fonts/*.ttf
 sudo chown root.root /usr/share/fonts/*.otf
 sudo chown -R root.root /usr/share/fonts/Fira*
