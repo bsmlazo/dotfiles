@@ -1,60 +1,22 @@
 127.0.0.1	localhost
-127.0.1.1	debian-byron.guaya	debian-byron
+127.0.1.1	ubuntu-byron
 
 # The following lines are desirable for IPv6 capable hosts
-::1     localhost ip6-localhost ip6-loopback
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
-##### Pruebas
-10.40.7.13 simanet.cl
-10.40.7.10 mq.backboneing.com
-#####
-
-172.20.2.18 angol angol.mutualseg.cl
-172.20.2.20 traiguen
-172.20.2.19 puren
-172.20.2.33 papudo
-172.20.2.32 petorca 
-172.20.2.218 temuco
-172.20.2.221 valparaiso
-172.20.2.41 limache
-172.20.2.29 gorbea
-172.20.2.30 freire
-172.20.2.42 olmue
-#172.20.3.130 lolol lolol.mutualseg.cl
-127.0.0.1 lolol lolol.mutualseg.cl
-172.30.10.51	portalcertificacion.mutualseg.cl portalproduccioncer.mutualseg.cl
-172.30.10.211	pcertificacion.mutual.cl
-172.30.10.213	msscla03 msscla03.mutualseg.cl 
-172.30.10.215	msscla05 mss
-
-#Copec
-10.1.40.230 coqasyslog.copec.cl coqasyslog
-10.79.0.23 coqabotpag.copec.cl coqabotpag
-10.1.40.146 coqaids1.copec.cl coqaids1
-10.1.60.32 coqawasapp1.copec.cl coqawasapp1
-10.1.60.41 coqabroker1.copec.cl coqabroker1
-10.1.60.45 coqaporapp1.copec.cl coqaporapp1
-10.1.60.46 coqaporbd1.copec.cl coqaporbd1
-10.1.60.44 coqaporweb1.copec.cl coqaporweb1
-10.1.60.33 coqawasdmg1.copec.cl coqawasdmg1
-10.1.60.34 coqawasihs1.copec.cl coqawasihs1
-10.79.0.25 coprbotpag.copec.cl coprbotpag
-10.1.60.42 coprbroker1.copec.cl coprbroker1
-10.1.60.50 coprpornd1.copec.cl coprpornd1
-10.1.60.53 coprporapp1.copec.cl coprporapp1
-10.1.60.54 coprporapp2.copec.cl coprporapp2
-10.1.60.64 coprporbd1.copec.cl coprporbd1
-10.1.60.51 coprporihs1.copec.cl coprporihs1
-10.1.60.52 coprporihs2.copec.cl coprporihs2
-10.1.60.63 coprporsby.copec.cl coprporsby
-10.152.33.65 coprsyslog.copec.cl coprsyslog
-10.1.40.158 coprtds1.copec.cl coprtds1
-10.1.40.159 coprtds2.copec.cl coprtds2
-10.1.60.35 coprwasapp1.copec.cl coprwasapp1
-10.1.60.36 coprwasapp2.copec.cl coprwasapp2
-10.1.60.43 coprwasapp3.copec.cl coprwasapp3
-10.1.60.39 coprwasdmg1.copec.cl coprwasdmg1
-10.1.60.37 coprwasihs1.copec.cl coprwasihs1
-10.1.60.38 coprwasihs2.copec.cl coprwasihs2
+# Vida Security
+190.243.30.34 	api-qa.vidasecurity.cl
+190.243.30.34 	api-des.vidasecurity.cl
+190.243.30.34 	api-des-core.vidasecurity.cl
+10.24.98.82   	servicios-des.vidasecurity.cl
+190.243.30.11   servicios.vidasecurity.cl
+10.50.2.58	vms-in-p066.empresas.security.cl
+190.243.30.65   qa-clientes.vidasecurity.cl
+10.61.4.84	srv-security252
+10.50.19.100	oauth-openshift.apps.ocp001.empresas.security.cl
+10.50.19.100	console-openshift-console.apps.ocp001.empresas.security.cl
+10.52.4.24	www.des-core.vidasecurity.cl

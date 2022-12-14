@@ -234,11 +234,204 @@ schemes:
       cyan:    '#54FFFF'
       white:   '#FFFFFF'
 
+# Colors (Breeze)
+  breeze: &breeze
+    primary:
+      background: '0x232627'
+      foreground: '0xfcfcfc'
+
+      dim_foreground: '0xeff0f1'
+      bright_foreground: '0xffffff'
+      dim_background: '0x31363b'
+      bright_background: '0x000000'
+
+    # Normal colors
+    normal:
+      black: '0x232627'
+      red: '0xed1515'
+      green: '0x11d116'
+      yellow: '0xf67400'
+      blue: '0x1d99f3'
+      magenta: '0x9b59b6'
+      cyan: '0x1abc9c'
+      white: '0xfcfcfc'
+
+  # Bright colors
+    bright:
+      black: '0x7f8c8d'
+      red: '0xc0392b'
+      green: '0x1cdc9a'
+      yellow: '0xfdbc4b'
+      blue: '0x3daee9'
+      magenta: '0x8e44ad'
+      cyan: '0x16a085'
+      white: '0xffffff'
+
+    # Dim colors
+    dim:
+      black: '0x31363b'
+      red: '0x783228'
+      green: '0x17a262'
+      yellow: '0xb65619'
+      blue: '0x1b668f'
+      magenta: '0x614a73'
+      cyan: '0x186c60'
+      white: '0x63686d'
+
+  # Colors (Gruvbox dark)
+  gruvbox_dark: &gruvbox_dark
+    # Default colors
+    primary:
+      # hard contrast: background = '0x1d2021'
+      background: '0x282828'
+      # soft contrast: background = '0x32302f'
+      foreground: '0xebdbb2'
+
+    # Normal colors
+    normal:
+      black:   '0x282828'
+      red:     '0xcc241d'
+      green:   '0x98971a'
+      yellow:  '0xd79921'
+      blue:    '0x458588'
+      magenta: '0xb16286'
+      cyan:    '0x689d6a'
+      white:   '0xa89984'
+
+    # Bright colors
+    bright:
+      black:   '0x928374'
+      red:     '0xfb4934'
+      green:   '0xb8bb26'
+      yellow:  '0xfabd2f'
+      blue:    '0x83a598'
+      magenta: '0xd3869b'
+      cyan:    '0x8ec07c'
+      white:   '0xebdbb2'
+
+  # Colors (Material Theme)
+  material_mod: &material_mod
+    # Default colors
+    primary:
+      background: '0x1e282d'
+      foreground: '0xc4c7d1'
+
+    # Normal colors
+    normal:
+      black:   '0x666666'
+      red:     '0xeb606b'
+      green:   '0xc3e88d'
+      yellow:  '0xf7eb95'
+      blue:    '0x80cbc4'
+      magenta: '0xff2f90'
+      cyan:    '0xaeddff'
+      white:   '0xffffff'
+
+    # Bright colors
+    bright:
+      black:   '0xa1a1a1'
+      red:     '0xeb606b'
+      green:   '0xc3e88d'
+      yellow:  '0xf7eb95'
+      blue:    '0x7dc6bf'
+      magenta: '0x6c71c4'
+      cyan:    '0x35434d'
+      white:   '0xffffff'
+
+  # Colors (Pencil Light)
+  pencil: &pencil
+    # Default Colors
+    primary:
+      background: '0xf1f1f1'
+      foreground: '0x424242'
+    # Normal colors
+    normal:
+      black:   '0x212121'
+      red:     '0xc30771'
+      green:   '0x10a778'
+      yellow:  '0xa89c14'
+      blue:    '0x008ec4'
+      magenta: '0x523c79'
+      cyan:    '0x20a5ba'
+      white:   '0xe0e0e0'
+    # Bright colors
+    bright:
+      black:   '0x212121'
+      red:     '0xfb007a'
+      green:   '0x5fd7af'
+      yellow:  '0xf3e430'
+      blue:    '0x20bbfc'
+      magenta: '0x6855de'
+      cyan:    '0x4fb8cc'
+      white:   '0xf1f1f1'
+
+  # XTerm's default colors
+  xterm: &xterm
+    # Default colors
+    primary:
+      background: '0x000000'
+      foreground: '0xffffff'
+    # Normal colors
+    normal:
+      black:   '0x000000'
+      red:     '0xcd0000'
+      green:   '0x00cd00'
+      yellow:  '0xcdcd00'
+      blue:    '0x0000ee'
+      magenta: '0xcd00cd'
+      cyan:    '0x00cdcd'
+      white:   '0xe5e5e5'
+
+    # Bright colors
+    bright:
+      black:   '0x7f7f7f'
+      red:     '0xff0000'
+      green:   '0x00ff00'
+      yellow:  '0xffff00'
+      blue:    '0x5c5cff'
+      magenta: '0xff00ff'
+      cyan:    '0x00ffff'
+      white:   '0xffffff'
+
+  atom_one: &atom_one
+    primary:
+      background: '0xf8f8f8'
+      foreground: '0x2a2b33'
+
+    normal:
+      black:   '0x000000'
+      red:     '0xde3d35'
+      green:   '0x3e953a'
+      yellow:  '0xd2b67b'
+      blue:    '0x2f5af3'
+      magenta: '0xa00095'
+      cyan:    '0x3e953a'
+      white:   '0xbbbbbb'
+
+    bright:
+      black:   '0x000000'
+      red:     '0xde3d35'
+      green:   '0x3e953a'
+      yellow:  '0xd2b67b'
+      blue:    '0x2f5af3'
+      magenta: '0xa00095'
+      cyan:    '0x3e953a'
+      white:   '0xffffff'
+
+# Temas claros
+#colors: *atom_one
 #colors: *terminal_basic
+#colors: *pencil
+
+# Temas oscuros
 #colors: *panda
 #colors: *cobalt2
 #colors: *firefox_dev
 #colors: *brogrammer
 #colors: *elementary # se parece al tango de la terminar normal
 #colors: *galizur
-colors: *terminal
+#colors: *terminal
+#colors: *breeze
+#colors: *gruvbox_dark
+colors: *material_mod
+#colors: *xterm

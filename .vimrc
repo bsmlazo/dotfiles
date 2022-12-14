@@ -12,6 +12,8 @@ set paste        " paste with indent
 " Turn on syntax highlighting.
 syntax on
 colorscheme molokai
+"colorscheme one
+"colorscheme nord
 
 " For plug-ins to load correctly.
 filetype plugin indent on
