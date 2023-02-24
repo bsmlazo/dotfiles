@@ -1,6 +1,6 @@
 # Intro
 A continuación están mis configuraciones para mi ambiente laboral:
-- [Clonar repo](clonar-repo)
+- [Clonar repo](#clonar-repo)
 - [Alacritty](#alacritty)
 - [Tmux](#tmux)
 - [Tabla host](#tabla-host)
