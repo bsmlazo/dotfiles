@@ -53,19 +53,8 @@ sudo mv -i vpns /etc/network/if-up.d/vpns
 sudo chown root.root /etc/network/if-up.d/vpns
 ```
 
-# Tabla host
-Archivo hosts se debe dejar en la ruta /etc/hosts
-
-```sh
-sudo mv -i hosts /etc/hosts
-```
-
 # Alias Bash
 Copiar el archivo .bash_aliases en el home
-
-```sh
-cp -i .bash_aliases ~/
-```
 
 # Vim
 Configuración de vim
