@@ -73,3 +73,17 @@ sudo chown root.root /usr/share/fonts/*.ttf
 sudo chown root.root /usr/share/fonts/*.otf
 sudo chown -R root.root /usr/share/fonts/Fira*
 ```
+
+# Kubectl
+Ir a la página oficial para instalar [Kubectl](https://kubernetes.io/docs/tasks/tools/)
+
+# Kubecolor
+```sh
+sudo apt install kubecolor -y
+```
+
+# Docker
+Para la instalación de Docker visitar el [sitio oficial](https://docs.docker.com/engine/install/)
+
+# Minikube
+Dirigirse al [sitio oficial](https://minikube.sigs.k8s.io/docs/start/)
